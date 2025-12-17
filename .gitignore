@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Logs and runtime files
+logs/
+*.log
+detection_log.txt
+
+# Training outputs
+runs/
+model/
+
+# Dataset (too large for repo)
+dataset/raw/
+dataset/images/
+dataset/labels/train/
+dataset/labels/val/
+
+# Base YOLO models (can be downloaded)
+yolov8n.pt
+yolov8m.pt
+
+# Test images
+road*.jpg
+result.jpg
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

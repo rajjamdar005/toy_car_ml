@@ -1,0 +1,8 @@
+# Toy Car Dataset for YOLO Training
+path: D:\test\dataset
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: car
